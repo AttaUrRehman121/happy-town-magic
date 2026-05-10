@@ -98,7 +98,7 @@ function Hero() {
             className="mt-8 flex flex-wrap gap-3"
           >
             <a
-              href="https://wa.me/96500000000"
+              href="https://wa.me/96522288242"
               className="inline-flex items-center gap-2 rounded-full bg-brand-yellow text-brand-black px-7 py-4 text-base font-extrabold shadow-glow hover:scale-105 transition-transform"
             >
               <MessageCircle className="size-5" /> Book Now
@@ -365,9 +365,9 @@ function LocationsPreview() {
 
 function Testimonials() {
   const items = [
-    { name: "Layla A.", text: "My kids beg to come back every weekend! Spotless, safe, and the staff are incredible.", rating: 5 },
-    { name: "Ahmad K.", text: "The birthday party setup blew us away. Worth every dinar. Memories for life.", rating: 5 },
-    { name: "Fatima S.", text: "Finally a place where parents can relax while kids burn energy. Love Happy Town!", rating: 5 },
+    { name: "Laia Monleón", when: "7 months ago", text: "Our favorite playground in Kuwait! Love the place and in love with the staff! Thank you to treat us always really well!", rating: 5 },
+    { name: "mohammad saud", when: "11 months ago", text: "The place is very beautiful and has a variety of games. There is also a cafe.", rating: 5 },
+    { name: "Dirgha Rai", when: "a year ago", text: "Very nice place. Can ask who own Happy Town Company?", rating: 5 },
   ];
   return (
     <section className="py-24 bg-brand-purple text-primary-foreground relative overflow-hidden">
@@ -388,6 +388,7 @@ function Testimonials() {
                 </div>
                 <p className="text-primary-foreground/90 italic leading-relaxed">"{t.text}"</p>
                 <p className="mt-4 font-bold text-brand-yellow">— {t.name}</p>
+                <p className="text-xs text-primary-foreground/60">{t.when} · Google Review</p>
               </div>
             </FadeIn>
           ))}
