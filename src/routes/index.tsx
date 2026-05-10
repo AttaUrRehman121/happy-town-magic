@@ -365,9 +365,9 @@ function LocationsPreview() {
 
 function Testimonials() {
   const items = [
-    { name: "Layla A.", text: "My kids beg to come back every weekend! Spotless, safe, and the staff are incredible.", rating: 5 },
-    { name: "Ahmad K.", text: "The birthday party setup blew us away. Worth every dinar. Memories for life.", rating: 5 },
-    { name: "Fatima S.", text: "Finally a place where parents can relax while kids burn energy. Love Happy Town!", rating: 5 },
+    { name: "Laia Monleón", when: "7 months ago", text: "Our favorite playground in Kuwait! Love the place and in love with the staff! Thank you to treat us always really well!", rating: 5 },
+    { name: "mohammad saud", when: "11 months ago", text: "The place is very beautiful and has a variety of games. There is also a cafe.", rating: 5 },
+    { name: "Dirgha Rai", when: "a year ago", text: "Very nice place. Can ask who own Happy Town Company?", rating: 5 },
   ];
   return (
     <section className="py-24 bg-brand-purple text-primary-foreground relative overflow-hidden">
