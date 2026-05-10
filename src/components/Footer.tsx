@@ -17,13 +17,13 @@ export function Footer() {
             Where smiles never end. Kuwait's most loved indoor play destination for kids of all ages.
           </p>
           <div className="flex gap-3 mt-5">
-            <a href="https://wa.me/96500000000" className="size-10 rounded-full bg-brand-yellow text-brand-black flex items-center justify-center hover:scale-110 transition-transform">
+            <a href="https://wa.me/96522288242" className="size-10 rounded-full bg-brand-yellow text-brand-black flex items-center justify-center hover:scale-110 transition-transform">
               <MessageCircle className="size-5" />
             </a>
             <a href="#" className="size-10 rounded-full bg-brand-yellow text-brand-black flex items-center justify-center hover:scale-110 transition-transform">
               <Instagram className="size-5" />
             </a>
-            <a href="tel:+96500000000" className="size-10 rounded-full bg-brand-yellow text-brand-black flex items-center justify-center hover:scale-110 transition-transform">
+            <a href="tel:+96522288242" className="size-10 rounded-full bg-brand-yellow text-brand-black flex items-center justify-center hover:scale-110 transition-transform">
               <Phone className="size-5" />
             </a>
           </div>
@@ -54,7 +54,7 @@ export function Footer() {
           <ul className="space-y-2 text-sm">
             <li className="flex items-start gap-2"><Clock className="size-4 mt-0.5 shrink-0" /> Sat–Wed: 10am – 10pm</li>
             <li className="flex items-start gap-2"><Clock className="size-4 mt-0.5 shrink-0" /> Thu–Fri: 10am – Midnight</li>
-            <li className="flex items-start gap-2"><Phone className="size-4 mt-0.5 shrink-0" /> +965 0000 0000</li>
+            <li className="flex items-start gap-2"><Phone className="size-4 mt-0.5 shrink-0" /> +965 2228 8242</li>
           </ul>
         </div>
       </div>
