@@ -57,7 +57,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-2">
           <a
-            href="https://wa.me/96500000000"
+            href="https://wa.me/96522288242"
             target="_blank"
             rel="noreferrer"
             className="hidden sm:inline-flex items-center gap-2 rounded-full bg-brand-purple text-primary-foreground px-5 py-2.5 text-sm font-bold shadow-pop hover:scale-105 transition-transform"
@@ -96,7 +96,7 @@ export function Navbar() {
                 </Link>
               ))}
               <a
-                href="https://wa.me/96500000000"
+                href="https://wa.me/96522288242"
                 className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-brand-purple text-primary-foreground px-5 py-3 font-bold"
               >
                 <MessageCircle className="size-4" /> Book Now

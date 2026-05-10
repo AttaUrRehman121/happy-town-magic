@@ -98,7 +98,7 @@ function Hero() {
             className="mt-8 flex flex-wrap gap-3"
           >
             <a
-              href="https://wa.me/96500000000"
+              href="https://wa.me/96522288242"
               className="inline-flex items-center gap-2 rounded-full bg-brand-yellow text-brand-black px-7 py-4 text-base font-extrabold shadow-glow hover:scale-105 transition-transform"
             >
               <MessageCircle className="size-5" /> Book Now
