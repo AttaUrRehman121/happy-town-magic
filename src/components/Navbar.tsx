@@ -29,16 +29,18 @@ export function Navbar() {
   return (
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/85 backdrop-blur-lg shadow-sm" : "bg-transparent"
+        scrolled ? "bg-brand-purple/95 backdrop-blur-lg shadow-lg" : "bg-gradient-to-b from-brand-purple/70 to-transparent backdrop-blur-sm"
       }`}
     >
       <div className="mx-auto max-w-7xl px-5 lg:px-8 h-18 flex items-center justify-between py-3">
         <Link to="/" className="flex items-center group" onClick={() => setOpen(false)} aria-label="Happy Town home">
-          <img
-            src={logo}
-            alt="Happy Town"
-            className="h-12 md:h-14 w-auto transition-transform group-hover:scale-105"
-          />
+          <div className="bg-white rounded-2xl p-1.5 shadow-pop transition-transform group-hover:scale-105">
+            <img
+              src={logo}
+              alt="Happy Town"
+              className="h-10 md:h-12 w-auto"
+            />
+          </div>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">
@@ -47,8 +49,8 @@ export function Navbar() {
               key={l.to}
               to={l.to}
               activeOptions={{ exact: l.to === "/" }}
-              activeProps={{ className: "text-brand-purple bg-brand-yellow/40" }}
-              className="px-3 py-2 rounded-full text-sm font-semibold text-foreground/80 hover:text-brand-purple hover:bg-brand-yellow/30 transition-colors"
+              activeProps={{ className: "!text-brand-black !bg-brand-yellow" }}
+              className="px-3 py-2 rounded-full text-sm font-bold text-brand-yellow hover:text-brand-black hover:bg-brand-yellow transition-colors"
             >
               {l.label}
             </Link>
@@ -60,7 +62,7 @@ export function Navbar() {
             href="https://wa.me/96522288242"
             target="_blank"
             rel="noreferrer"
-            className="hidden sm:inline-flex items-center gap-2 rounded-full bg-brand-purple text-primary-foreground px-5 py-2.5 text-sm font-bold shadow-pop hover:scale-105 transition-transform"
+            className="hidden sm:inline-flex items-center gap-2 rounded-full bg-brand-yellow text-brand-black px-5 py-2.5 text-sm font-extrabold shadow-pop hover:scale-105 transition-transform"
           >
             <MessageCircle className="size-4" /> Book Now
           </a>
