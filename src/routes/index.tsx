@@ -22,9 +22,8 @@ import softplay from "@/assets/softplay.webp";
 import arcade from "@/assets/arcade.webp";
 import birthday from "@/assets/birthday.webp";
 import funvillage from "@/assets/funvillage.webp";
+import pandaLogo from "@/assets/happy-town-logo.png";
 import { FadeIn } from "@/components/Motion";
-
-const Panda3D = lazy(() => import("@/components/Panda3D").then((m) => ({ default: m.Panda3D })));
 
 export const Route = createFileRoute("/")({
   head: () => ({
