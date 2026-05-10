@@ -389,6 +389,7 @@ function Testimonials() {
                 </div>
                 <p className="text-primary-foreground/90 italic leading-relaxed">"{t.text}"</p>
                 <p className="mt-4 font-bold text-brand-yellow">— {t.name}</p>
+                <p className="text-xs text-primary-foreground/60">{t.when}</p>
               </div>
             </FadeIn>
           ))}
