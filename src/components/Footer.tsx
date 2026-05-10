@@ -10,9 +10,8 @@ export function Footer() {
 
       <div className="relative mx-auto max-w-7xl px-5 lg:px-8 py-16 grid gap-10 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <div className="flex items-center gap-2 mb-4">
-            <div className="size-12 rounded-full bg-brand-yellow flex items-center justify-center text-2xl shadow-pop">🐼</div>
-            <span className="font-display font-extrabold text-2xl">Happy Town</span>
+          <div className="mb-4 inline-flex items-center bg-white/95 rounded-2xl px-3 py-2 shadow-pop">
+            <img src={logo} alt="Happy Town" className="h-12 w-auto" />
           </div>
           <p className="text-sm text-primary-foreground/80 leading-relaxed">
             Where smiles never end. Kuwait's most loved indoor play destination for kids of all ages.
