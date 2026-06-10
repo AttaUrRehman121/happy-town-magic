@@ -17,20 +17,30 @@ import {
   Castle,
   Phone,
 } from "lucide-react";
-import heroImg from "@/assets/hero-playground.jpg";
+import heroImg from "@/assets/unnamed (1).jpg";
 import softplay from "@/assets/softpl.jpg";
-import arcade from "@/assets/arcade.webp";
+import arcade from "@/assets/unnamed (4).jpg";
 import birthday from "@/assets/birth.jpg";
 import funvillage from "@/assets/unnamed.jpg";
-import schooltrip from "@/assets/aa.jpg";
+import schooltrip from "@/assets/unnamed (3).jpg";
 import pandaLogo from "@/assets/happy-town-logo.png";
-import ballpit from "@/assets/ballpit.webp";
+import newGalleryImg from "@/assets/unnamed (1).jpg";
 import birthdayAlt from "@/assets/birthday.webp";
 import funvillageAlt from "@/assets/funvillage.webp";
 import softplayAlt from "@/assets/softplay.webp";
-import trampoline from "@/assets/trampoline.webp";
+import trampoline from "@/assets/unnamed (2).jpg";
 import ee from "@/assets/ee.jpg";
 import tt from "@/assets/tt.jpg";
+import img5 from "@/assets/unnamed (5).jpg";
+import img6 from "@/assets/unnamed (6).jpg";
+import img7 from "@/assets/unnamed (7).jpg";
+import img8 from "@/assets/unnamed (8).jpg";
+import img10 from "@/assets/unnamed (10).jpg";
+import img11 from "@/assets/unnamed (11).jpg";
+import img12 from "@/assets/unnamed (12).jpg";
+import img13 from "@/assets/unnamed (13).jpg";
+import img14 from "@/assets/unnamed (14).jpg";
+import imgCopy from "@/assets/unnamed copy.jpg";
 import { FadeIn } from "@/components/Motion";
 
 export const Route = createFileRoute("/")({
@@ -326,7 +336,7 @@ function LocationsPreview() {
   const locs = [
     { name: "Marina Mall", area: "Salmiya", tag: "Softplay Area + Arcade Games + Fun Village" },
     { name: "Assima Mall", area: "Kuwait City", tag: "Softplay Area + Creative Centre" },
-    { name: "The Avenues", area: "Al Rai", tag: "Arcade Games + Softplay Area" },
+    { name: "The Avenues", area: "Al Rai", tag: "Softplay Area" },
   ];
   return (
     <section className="py-24">
@@ -396,17 +406,19 @@ function Testimonials() {
 
 function Gallery() {
   const images = [
-    softplay,
-    arcade,
-    birthdayAlt,
-    trampoline,
-    softplayAlt,
-    ballpit,
-    funvillage,
-    birthday,
-    funvillageAlt,
     schooltrip,
-    heroImg,
+    funvillage,
+    softplay,
+    img5,
+    img6,
+    img7,
+    img8,
+    img10,
+    img11,
+    img12,
+    img13,
+    img14,
+    imgCopy,
     ee,
     tt,
   ];

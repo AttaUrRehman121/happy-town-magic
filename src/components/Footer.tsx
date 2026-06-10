@@ -40,22 +40,34 @@ export function Footer() {
           </ul>
         </div>
 
-        <div>
-          <h4 className="font-display font-bold text-lg mb-4 text-brand-yellow">Locations</h4>
-          <ul className="space-y-3 text-sm">
-            <li className="flex items-start gap-2"><MapPin className="size-4 mt-0.5 shrink-0" /> Marina Mall, Salmiya</li>
-            <li className="flex items-start gap-2"><MapPin className="size-4 mt-0.5 shrink-0" /> Assima Mall, Kuwait City</li>
-            <li className="flex items-start gap-2"><MapPin className="size-4 mt-0.5 shrink-0" /> The Avenues, Al Rai</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 className="font-display font-bold text-lg mb-4 text-brand-yellow">Hours</h4>
-          <ul className="space-y-2 text-sm">
-            <li className="flex items-start gap-2"><Clock className="size-4 mt-0.5 shrink-0" /> Sat–Wed: 10am – 10pm</li>
-            <li className="flex items-start gap-2"><Clock className="size-4 mt-0.5 shrink-0" /> Thu–Fri: 10am – Midnight</li>
-            <li className="flex items-start gap-2"><Phone className="size-4 mt-0.5 shrink-0" /> +965 2228 8242</li>
-          </ul>
+        <div className="md:col-span-2 lg:col-span-2">
+          <h4 className="font-display font-bold text-lg mb-4 text-brand-yellow">Locations & Hours</h4>
+          <div className="grid sm:grid-cols-3 gap-6">
+            <div>
+              <p className="font-bold flex items-center gap-1.5 mb-2"><MapPin className="size-4 text-brand-yellow" /> Marina Mall</p>
+              <ul className="space-y-1 text-sm text-primary-foreground/80">
+                <li>Sat–Wed: 10am – 10:30pm</li>
+                <li>Thu–Fri: 10am – 11pm</li>
+                <li className="flex items-center gap-1.5 mt-2 text-brand-yellow font-bold"><Phone className="size-3" /> +965 98572227</li>
+              </ul>
+            </div>
+            <div>
+              <p className="font-bold flex items-center gap-1.5 mb-2"><MapPin className="size-4 text-brand-yellow" /> Assima Mall</p>
+              <ul className="space-y-1 text-sm text-primary-foreground/80">
+                <li>Sat–Wed: 10am – 10pm</li>
+                <li>Thu–Fri: 10am – 10:30pm</li>
+                <li className="flex items-center gap-1.5 mt-2 text-brand-yellow font-bold"><Phone className="size-3" /> +965 99323061</li>
+              </ul>
+            </div>
+            <div>
+              <p className="font-bold flex items-center gap-1.5 mb-2"><MapPin className="size-4 text-brand-yellow" /> The Avenues</p>
+              <ul className="space-y-1 text-sm text-primary-foreground/80">
+                <li>Sat–Wed: 10am – 10pm</li>
+                <li>Thu–Fri: 10am – 11pm</li>
+                <li className="flex items-center gap-1.5 mt-2 text-brand-yellow font-bold"><Phone className="size-3" /> +965 91112540</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 

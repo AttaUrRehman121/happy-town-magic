@@ -4,18 +4,27 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 import { PageHero, FadeIn } from "@/components/Motion";
 import softplay from "@/assets/softplay.webp";
-import arcade from "@/assets/arcade.webp";
+import arcade from "@/assets/unnamed (4).jpg";
 import birthday from "@/assets/birthday.webp";
-import trampoline from "@/assets/trampoline.webp";
-import ballpit from "@/assets/ballpit.webp";
+import trampoline from "@/assets/unnamed (2).jpg";
+import ballpit from "@/assets/unnamed (1).jpg";
 import funvillage from "@/assets/funvillage.webp";
 import birth from "@/assets/birth.jpg";
 import unnamed from "@/assets/unnamed.jpg";
 import softpl from "@/assets/softpl.jpg";
-import schooltrip from "@/assets/aa.jpg";
-import heroImg from "@/assets/hero-playground.jpg";
+import schooltrip from "@/assets/unnamed (3).jpg"
 import ee from "@/assets/ee.jpg";
 import tt from "@/assets/tt.jpg";
+import img5 from "@/assets/unnamed (5).jpg";
+import img6 from "@/assets/unnamed (6).jpg";
+import img7 from "@/assets/unnamed (7).jpg";
+import img8 from "@/assets/unnamed (8).jpg";
+import img10 from "@/assets/unnamed (10).jpg";
+import img11 from "@/assets/unnamed (11).jpg";
+import img12 from "@/assets/unnamed (12).jpg";
+import img13 from "@/assets/unnamed (13).jpg";
+import img14 from "@/assets/unnamed (14).jpg";
+import imgCopy from "@/assets/unnamed copy.jpg";
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
@@ -30,19 +39,21 @@ export const Route = createFileRoute("/gallery")({
 });
 
 const photos = [
-  { src: softplay, cat: "Play", h: "tall" },
-  { src: arcade, cat: "Arcade", h: "wide" },
-  { src: birthday, cat: "Birthdays", h: "tall" },
-  { src: trampoline, cat: "Play", h: "wide" },
-  { src: ballpit, cat: "Play", h: "tall" },
-  { src: funvillage, cat: "Play", h: "wide" },
-  { src: softpl, cat: "Play", h: "tall" },
-  { src: birth, cat: "Birthdays", h: "wide" },
   { src: unnamed, cat: "Play", h: "tall" },
   { src: schooltrip, cat: "Play", h: "wide" },
-  { src: heroImg, cat: "Play", h: "wide" },
   { src: ee, cat: "Play", h: "wide" },
   { src: tt, cat: "Play", h: "tall" },
+  { src: softpl, cat: "Play", h: "tall" },
+  { src: img5, cat: "Play", h: "tall" },
+  { src: img6, cat: "Play", h: "wide" },
+  { src: img7, cat: "Birthdays", h: "tall" },
+  { src: img8, cat: "Play", h: "wide" },
+  { src: img10, cat: "Play", h: "wide" },
+  { src: img11, cat: "Play", h: "tall" },
+  { src: img12, cat: "Birthdays", h: "wide" },
+  { src: img13, cat: "Play", h: "tall" },
+  { src: img14, cat: "Play", h: "wide" },
+  { src: imgCopy, cat: "Play", h: "tall" },
 ];
 
 const events = [

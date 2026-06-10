@@ -2,10 +2,10 @@ import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { PageHero, FadeIn } from "@/components/Motion";
 import softplay from "@/assets/softplay.webp";
-import arcade from "@/assets/arcade.webp";
+import arcade from "@/assets/unnamed (4).jpg";
 import birthday from "@/assets/birthday.webp";
-import trampoline from "@/assets/trampoline.webp";
-import ballpit from "@/assets/ballpit.webp";
+import trampoline from "@/assets/unnamed (2).jpg";
+import ballpit from "@/assets/unnamed (1).jpg";
 import funvillage from "@/assets/funvillage.webp";
 
 export const Route = createFileRoute("/activities")({
@@ -22,7 +22,7 @@ export const Route = createFileRoute("/activities")({
 
 const activities = [
   { title: "Soft Play Areas", desc: "Multi-level structures, slides and tunnels for ages 1–12.", img: softplay, branches: ["Marina", "Assima", "Avenues"] },
-  { title: "Arcade Games", desc: "Latest interactive games, redemption and prize tickets.", img: arcade, branches: ["Marina", "Assima", "Avenues"] },
+  { title: "Arcade Games", desc: "Latest interactive games, redemption and prize tickets.", img: arcade, branches: ["Marina"] },
   { title: "Fun Village (Marina)", desc: "Role-play town: bakery, hospital, supermarket and more.", img: funvillage, branches: ["Marina"] },
   { title: "Party Rooms", desc: "Themed celebration rooms with dedicated event hosts.", img: birthday, branches: ["Marina", "Assima", "Avenues"] },
   { title: "Trampoline Park", desc: "Bounce, leap and play in our supervised trampoline zone.", img: trampoline, branches: ["Avenues"] },
@@ -35,7 +35,7 @@ function ActivitiesPage() {
       <PageHero
         eyebrow="Activities"
         title="Six worlds. Endless adventures."
-        subtitle="Pick your favorite — or try them all. Every Happy Town visit is a new story."
+        subtitle="Pick your favorite,or try them all. Every Happy Town visit is a new story."
         image={softplay}
       />
       <section className="py-20">
